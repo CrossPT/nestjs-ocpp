@@ -1,9 +1,6 @@
 <p align="center">
-  <h3 align="center">
-    nestjs-ocpp
-  </h3>
   <p align="center">
-    <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" />
+    <a href="http://nestjs.com/" target="blank"><img src="https://avatars1.githubusercontent.com/u/0?s=200&v=4" width="200" alt="Nest Logo" />
     </a>
   </p>
   <p align="center">A OCPP Injectable module for <a href="http://nestjs.com/" target="_blank">Nestjs</a>.</p>
@@ -12,7 +9,7 @@
 [![npm version](https://img.shields.io/npm/v/nestjs-ocpp)](https://www.npmjs.com/package/nestjs-ocpp)
 [![miniziped size](https://badgen.net/bundlephobia/minzip/nestjs-ocpp)](https://bundlephobia.com/result?p=nestjs-ocpp)
 [![tree shaking](https://badgen.net/bundlephobia/tree-shaking/react-colorful)](https://github.com/CrossPT/nestjs-ocpp)
-[![MIT licensed](https://img.shields.io/github/license/CrossPT/nestjs-ocpp)](https://raw.githubusercontent.com/CrossPT/nestjs-ocpp/master/LICENSE)
+[![MIT licensed](https://img.shields.io/github/license/CrossPT/nestjs-ocpp)](https://raw.githubusercontent.com/CrossPT/nestjs-ocpp/main/LICENSE)
 
 ## Description
 
@@ -46,15 +43,3 @@ export class AppModule {}
 ```
 
 ## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).

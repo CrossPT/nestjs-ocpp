@@ -4,16 +4,22 @@
   "sourceRoot": "src",
   "compilerOptions": {
     "deleteOutDir": true,
-    "webpack": true
+    "webpack": true,
+    "assets": [
+      {
+        "include": "src/schemas/**/*",
+        "outDir": "dist/schemas"
+      }
+    ]
   },
   "projects": {
-    "te": {
+    "ocpp": {
       "type": "library",
-      "root": "libs/te",
+      "root": "lib",
       "entryFile": "index",
-      "sourceRoot": "libs/te/src",
+      "sourceRoot": "lib/",
       "compilerOptions": {
-        "tsConfigPath": "libs/te/tsconfig.lib.json"
+        "tsConfigPath": "lib/tsconfig.lib.json"
       }
     }
   }

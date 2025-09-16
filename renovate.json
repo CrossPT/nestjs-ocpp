@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "config:base",
+        ":automergeMinor",
+        ":automergePatch",
+        ":disablePeerDependencies",
+        ":pinDevDependencies",
+        ":semanticCommitsDisabled",
+        "docker:disable"
+    ],
+    "ignorePaths": [
+        "sample/**"
+    ],
+    "packageRules": [
+        {
+            "matchFiles": [
+                "package.json"
+            ],
+            "enabled": true
+        },
+        {
+            "matchDepTypes": [
+                "dependencies"
+            ],
+            "rangeStrategy": "bump"
+        }
+    ]
+}
